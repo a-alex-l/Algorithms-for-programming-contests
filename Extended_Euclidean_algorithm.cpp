@@ -20,4 +20,5 @@ int main() {
     cin >> a >> b;
     gcd(a, b, x, y);
     cout << a * x + b * y << " " << x << " " << y;
+    return 0;
 }
