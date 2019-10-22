@@ -11,6 +11,7 @@ vector<int> disjoint_set;
 void merge(int a, int b) {
     if (rand() % 2) swap(a, b);
     disjoint_set[a] = b;
+    return;
 }
 
 int find(int x) {
@@ -40,4 +41,5 @@ int main() {
             else cout << "NO\n";
         }
     }
+    return 0;
 }
